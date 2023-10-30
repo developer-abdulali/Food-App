@@ -46,7 +46,7 @@ const Cart = () => {
         <div className="absolute bottom-0">
           <h3 className="font-bold text-gray-800">Items : {totalQty}</h3>
           <h3 className="font-bold text-gray-800">
-            Total Amount : {totalPrice}{" "}
+            Total Amount : {totalPrice}
           </h3>
           <hr className="my-2 w-[90vw] lg:w-[18vw]" />
           <button className="bg-green-500 font-bold px-3 text-white py-2 rounded-lg w-[90vw] lg:w-[18vw] mb-2">
