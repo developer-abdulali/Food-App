@@ -29,16 +29,12 @@ const ItemCard = ({ id, name, price, qty, img }) => {
           <span className="text-green-500 font-bold">RS:{price}</span>
           <div className="flex items-center justify-center gap-2 absolute right-7">
             <AiOutlineMinus
-              onClick={() =>
-                qty > 1 ? dispatch(decreamentQty({ id })) : (qty = 0)
-              }
+              onClick={() => qty > 1 && dispatch(decreamentQty({ id }))}
               className="border-2 border-gray-600 p-1 text-gray-600 hover:text-white hover:bg-green-500 hover:border-none rounded-md text-xl transition-all ease-linear cursor-pointer"
             />
             <span>{qty}</span>
             <AiOutlinePlus
-              onClick={() =>
-                qty >= 1 ? dispatch(increamentQty({ id })) : (qty = 0)
-              }
+              onClick={() => qty >= 1 && dispatch(increamentQty({ id }))}
               className="border-2 border-gray-600 p-1 text-gray-600 hover:text-white hover:bg-green-500 hover:border-none rounded-md text-xl transition-all ease-linear cursor-pointer"
             />
           </div>
