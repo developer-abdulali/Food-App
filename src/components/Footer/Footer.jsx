@@ -9,21 +9,21 @@ const Footer = () => {
       <footer className="w-full text-gray-700 bg-gray-100 body-font">
         <div className="container flex flex-col flex-wrap px-5 py-24 mx-auto md:items-center lg:items-start md:flex-row md:flex-no-wrap">
           <div className="flex-shrink-0 w-64 mx-auto text-center md:mx-0 md:text-left">
-            <a className="flex items-center justify-center text-xl font-medium text-gray-900 title-font md:justify-start">
-              Flavoro Food App
+            <a href="/" className="flex items-center justify-center text-xl font-medium text-gray-900 title-font md:justify-start">
+              Pizza Hut
             </a>
             <p className="mt-2 text-sm text-gray-500">
               Explore, Taste, and Book
             </p>
             <div className="mt-4">
               <span className="inline-flex justify-center gap-5 mt-2 sm:ml-auto sm:mt-0 sm:justify-start">
-                <a className="text-gray-500 cursor-pointer hover:text-gray-700">
+                <a href="/" className="text-gray-500 cursor-pointer hover:text-gray-700">
                   <BsFacebook />
                 </a>
-                <a className="text-gray-500 cursor-pointer hover:text-gray-700">
+                <a href="/" className="text-gray-500 cursor-pointer hover:text-gray-700">
                   <BsTwitter />
                 </a>
-                <a className="text-gray-500 cursor-pointer hover:text-gray-700">
+                <a href="/" className="text-gray-500 cursor-pointer hover:text-gray-700">
                   <BsInstagram />
                 </a>
               </span>
@@ -37,17 +37,17 @@ const Footer = () => {
               </h2>
               <nav className="mb-10 list-none">
                 <li className="mt-3">
-                  <a className="text-gray-500 cursor-pointer hover:text-gray-900">
+                  <a href="/" className="text-gray-500 cursor-pointer hover:text-gray-900">
                     Company
                   </a>
                 </li>
                 <li className="mt-3">
-                  <a className="text-gray-500 cursor-pointer hover:text-gray-900">
+                  <a href="/" className="text-gray-500 cursor-pointer hover:text-gray-900">
                     Careers
                   </a>
                 </li>
                 <li className="mt-3">
-                  <a className="text-gray-500 cursor-pointer hover:text-gray-900">
+                  <a href="/" className="text-gray-500 cursor-pointer hover:text-gray-900">
                     Blog
                   </a>
                 </li>
@@ -60,17 +60,17 @@ const Footer = () => {
               </h2>
               <nav className="mb-10 list-none">
                 <li className="mt-3">
-                  <a className="text-gray-500 cursor-pointer hover:text-gray-900">
+                  <a href="/" className="text-gray-500 cursor-pointer hover:text-gray-900">
                     Contact Support
                   </a>
                 </li>
                 <li className="mt-3">
-                  <a className="text-gray-500 cursor-pointer hover:text-gray-900">
+                  <a href="/" className="text-gray-500 cursor-pointer hover:text-gray-900">
                     Help Resources
                   </a>
                 </li>
                 <li className="mt-3">
-                  <a className="text-gray-500 cursor-pointer hover:text-gray-900">
+                  <a href="/" className="text-gray-500 cursor-pointer hover:text-gray-900">
                     Release Update
                   </a>
                 </li>
@@ -83,17 +83,17 @@ const Footer = () => {
               </h2>
               <nav className="mb-10 list-none">
                 <li className="mt-3">
-                  <a className="text-gray-500 cursor-pointer hover:text-gray-900">
+                  <a href="/" className="text-gray-500 cursor-pointer hover:text-gray-900">
                     Terms & Privacy
                   </a>
                 </li>
                 <li className="mt-3">
-                  <a className="text-gray-500 cursor-pointer hover:text-gray-900">
+                  <a href="/" className="text-gray-500 cursor-pointer hover:text-gray-900">
                     Pricing
                   </a>
                 </li>
                 <li className="mt-3">
-                  <a className="text-gray-500 cursor-pointer hover:text-gray-900">
+                  <a href="/" className="text-gray-500 cursor-pointer hover:text-gray-900">
                     FAQ
                   </a>
                 </li>
@@ -105,17 +105,17 @@ const Footer = () => {
               </h2>
               <nav className="mb-10 list-none">
                 <li className="mt-3">
-                  <a className="text-gray-500 cursor-pointer hover:text-gray-900">
+                  <a href="/" className="text-gray-500 cursor-pointer hover:text-gray-900">
                     Send a Message
                   </a>
                 </li>
                 <li className="mt-3">
-                  <a className="text-gray-500 cursor-pointer hover:text-gray-900">
+                  <a href="/" className="text-gray-500 cursor-pointer hover:text-gray-900">
                     Request a Qoute
                   </a>
                 </li>
                 <li className="mt-3">
-                  <a className="text-gray-500 cursor-pointer hover:text-gray-900">
+                  <a href="/" className="text-gray-500 cursor-pointer hover:text-gray-900">
                     0333-XXXXXXX
                   </a>
                 </li>

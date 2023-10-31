@@ -10,7 +10,7 @@ const Navbar = () => {
         <h3 className="text-xl font-bold text-gray-600">
           {new Date().toUTCString().slice(0, 16)}
         </h3>
-        <h1 className="text-2xl font-bold">Flavoro Foods</h1>
+        <h1 className="text-2xl font-bold">Pizza Hut</h1>
       </div>
 
       {/* search input div */}

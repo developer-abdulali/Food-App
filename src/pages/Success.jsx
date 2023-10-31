@@ -16,10 +16,10 @@ const Success = () => {
       ) : (
         <div className="">
           <h2 className="text-3xl font-semibold mb-4">Order Successfull!</h2>
-          <p className="mb-4 hover:underline">
+          <p className="mb-4">
             Your order has been successfully placed.
           </p>
-          <Link to="/" className="flex items-center justify-center">
+          <Link to="/" className="flex items-center justify-center hover:underline">
             Go Back
           </Link>
         </div>
