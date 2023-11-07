@@ -162,7 +162,7 @@ const Footer = () => {
                     href="/"
                     className="text-white cursor-pointer hover:text-blue-400 hover:underline duration-200"
                   >
-                    0333-XXXXXXX
+                    +92 333 1234567
                   </a>
                 </li>
               </nav>
