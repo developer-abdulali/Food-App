@@ -18,6 +18,7 @@ const CartSlice = createSlice({
         state.cart.push(action.payload);
       }
     },  
+    // removing form cart
     removeFromCart: (state, action) => {
       state.cart = state.cart.filter((item) => item.id !== action.payload.id);
     },
@@ -27,6 +28,7 @@ const CartSlice = createSlice({
         item.id === action.payload.id ? { ...item, qty: item.qty + 1 } : item
       );
     },
+    // decrement qty the cart item
     decreamentQty: (state, action) => {
       state.cart = state.cart.map((item) =>
         item.id === action.payload.id ? { ...item, qty: item.qty - 1 } : item
