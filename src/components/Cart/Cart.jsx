@@ -26,7 +26,7 @@ const Cart = () => {
           <span className="text-xl font-bold text-gray-800">My Orders</span>
           <IoMdClose
             onClick={() => setActiveCart(!activeCart)}
-            className="border-2 border-gray-600 text-gray-600 font-bold p-1 text-xl rounded-md hover:text-red-300 hover:border-red-300 cursor-pointer"
+            className="border-2 border-gray-600 text-gray-600 font-bold p-1 text-xl rounded-md hover:text-primary hover:border-primary cursor-pointer"
           />
         </div>
         {cartItems.length ? (
@@ -62,7 +62,7 @@ const Cart = () => {
       </div>
       <FaShoppingCart
         onClick={() => setActiveCart(!activeCart)}
-        className={`rounded-full bg-white text-5xl shadow-md p-3 fixed bottom-4 right-4 cursor-pointer ${
+        className={`rounded-full bg-white text-5xl shadow-md p-3 fixed bottom-4 right-4 cursor-pointer hover:bg-primary duration-300 ${
           totalQty > 0 && "animate-bounce delay-500 transition-all"
         }`}
       />

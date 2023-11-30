@@ -14,12 +14,12 @@ const FoodCard = ({ id, name, price, desc, img, rating, handleToast }) => {
       />
       <div className="text-sm flex items-center justify-between">
         <h2>{name}</h2>
-        <span className="text-green-500">Rs:{price}</span>
+        <span className="text-primary">Rs:{price}</span>
       </div>
       <p className="text-sm font-normal">{desc.slice(0, 50)}...</p>
       <div className="flex justify-between">
         <span className="flex items-center justify-center">
-          <AiFillStar className="mr-1 text-yellow-400" />
+          <AiFillStar className="mr-1 text-secondary" />
           {rating}
         </span>
         <button
@@ -27,7 +27,7 @@ const FoodCard = ({ id, name, price, desc, img, rating, handleToast }) => {
             dispatch(addToCart({ id, name, price, rating, img, qty: 1 })) 
           }}
           
-          className="p-1 text-white bg-green-500 hover:bg-green-600 rounded-lg text-sm"
+          className="p-1 text-white bg-primary hover:bg-green-600 rounded-lg text-sm"
         >
           Add to cart
         </button>
